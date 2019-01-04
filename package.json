@@ -1,0 +1,19 @@
+{
+  "name": "weidex-mq-gateway",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "NODE_ENV=production node index.js",
+    "start-dev": "node index.js"
+  },
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "prettier": "^1.8.2"
+  },
+  "dependencies": {
+    "amqplib": "^0.5.2",
+    "winston": "^3.1.0",
+    "ws": "^6.0.0"
+  }
+}
